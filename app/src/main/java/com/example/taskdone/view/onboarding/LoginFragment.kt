@@ -13,11 +13,9 @@ import com.example.taskdone.R
 import androidx.core.widget.addTextChangedListener
 import com.example.taskdone.databinding.FragmentLoginBinding
 import com.example.taskdone.utils.FragmentCommunicator
-import com.example.taskdone.viewModel.list.ListActivity
+import com.example.taskdone.view.list.ListActivity
 
-/**
- * A simple [Fragment] subclass as the default destination in the navigation.
- */
+
 class LoginFragment : Fragment() {
 
     private var _binding: FragmentLoginBinding? = null
