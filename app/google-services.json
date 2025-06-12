@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "190807409312",
+    "project_id": "taskdone-99056",
+    "storage_bucket": "taskdone-99056.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190807409312:android:3a4fa780fdfa8d8b0fffc5",
+        "android_client_info": {
+          "package_name": "com.example.taskdone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJzSWQ-1GOXk4Su1MXAMWMEXkJc4XsD0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
