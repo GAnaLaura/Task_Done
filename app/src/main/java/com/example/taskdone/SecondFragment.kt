@@ -25,14 +25,13 @@ class SecondFragment : Fragment() {
     ): View {
 
         _binding = FragmentRegisterBinding.inflate(inflater, container, false)
+        setupView()
         return binding.root
 
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
-        binding.buttonSecond.setOnClickListener {
+    private fun setupView() {
+        binding.iconButton.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
     }
