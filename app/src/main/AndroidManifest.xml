@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TaskDone"
         tools:targetApi="31">
+        <activityAdd
+            android:name=".OnboardingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TaskDone" />
         <activity
             android:name=".OnboardingActivity"
             android:exported="true">
