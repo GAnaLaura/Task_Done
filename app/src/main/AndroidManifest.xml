@@ -13,7 +13,7 @@
         android:theme="@style/Base.Theme.TaskDone"
         tools:targetApi="31">
         <activity
-            android:name=".view.OnboardingActivity"
+            android:name=".view.onboarding.OnboardingActivity"
             android:exported="true"
             android:theme="@style/Base.Theme.TaskDone" >
 
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.MainActivity"
+            android:name=".view.list.ListActivity"
             android:exported="false"
             android:theme="@style/Base.Theme.TaskDone" >
 

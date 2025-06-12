@@ -1,4 +1,4 @@
-package com.example.taskdone.view
+package com.example.taskdone.view.onboarding
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,8 +13,7 @@ import com.example.taskdone.R
 import androidx.core.widget.addTextChangedListener
 import com.example.taskdone.databinding.FragmentLoginBinding
 import com.example.taskdone.utils.FragmentCommunicator
-import com.example.taskdone.view.MainActivity
-import com.example.taskdone.viewModel.LoginViewModel
+import com.example.taskdone.viewModel.list.ListActivity
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
@@ -81,7 +80,7 @@ class LoginFragment : Fragment() {
         }
         viewModel.sessionValid.observe(viewLifecycleOwner) {validSession ->
             if (validSession) {
-                val intent = Intent(activity, MainActivity::class.java)
+                val intent = Intent(activity, ListActivity::class.java)
                 startActivity(intent)
                 activity?.finish()
             } else  {

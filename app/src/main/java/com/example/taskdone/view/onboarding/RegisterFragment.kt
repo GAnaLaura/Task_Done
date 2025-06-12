@@ -1,4 +1,4 @@
-package com.example.taskdone.view
+package com.example.taskdone.view.onboarding
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
